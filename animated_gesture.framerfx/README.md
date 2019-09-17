@@ -1,11 +1,20 @@
 # Animated gesture
-This Framer X component renders the animated gesture on the screen. Simple as it sounds. It supports `tap` , `drag` and `swipe` gestures so far.
+This Framer X component renders the animated gesture on the screen. It supports `tap` , `drag` and `swipe` gestures so far. Simple as it sounds 😜
 
-If you like the component and want to contribute or leave feedback hit me via [FACEBOOK](https://www.facebook.com/anton.kosarchyn), [SPECTRUM](https://spectrum.chat/users/anton-kosarchyn)
+If you like the component and want to contribute or leave feedback hit me via [FACEBOOK](https://www.facebook.com/anton.kosarchyn), [SPECTRUM](https://spectrum.chat/users/anton-kosarchyn) or  [GITHUB](https://github.com/akosarch/animated-gesture)
+
+### Why is it useful?
+
+In case when you record the video of your mobile app prototype and want to hide the default cursor. Or you want your dribbble shot to look modern and professional. Come on! 
 
 ### How to use
 
-Drag the component to the canvas. Connect the children frames to the component. You can connect multiple frames. Also, you can adjust the other parameters like `size`, `color`, `opacity` and others.
+1. Drag the component to the canvas. 
+2. Connect the children frames to the component. You can connect multiple frames. 
+3. Adjust parameters like `size`, `color`, `opacity` and others.
+4. Profit! 😁
+
+### Props
 
 | Property       | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
@@ -19,4 +28,4 @@ Drag the component to the canvas. Connect the children frames to the component. 
 
 ### Known issues
 
-If you connect frames linked with a Link tool, after transition occures it's no longer possible to use gesture. Solution - wrap each frame in separate gesture component and then link the components together. I'm working on a solution.
+If you connect frames linked with a Link tool, after transition occures it's no longer possible to use gesture. Solution: wrap each frame in separate gesture component and then link the components together. I'm working on a solution.
