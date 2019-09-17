@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@framer/framer.device-skin-apple-iphone8-gold": "^1.0.0",
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "c00031a1-6035-4033-a2d6-8b9d48312150",
+		"displayName": "Animated gesture"
+	},
+	"author": "Anton Kosarchyn",
+	"name": "@framer/martiankid.animated-gesture",
+	"version": "1.0.0"
+}
