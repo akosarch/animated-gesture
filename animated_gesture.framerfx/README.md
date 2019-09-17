@@ -1,12 +1,11 @@
 # Animated gesture
-This FramerX component renders the animated gesture on the screen. Simple as it sounds.
-It supports `tap` , `drag` and `swipe` gestures so far.
+This Framer X component renders the animated gesture on the screen. Simple as it sounds. It supports `tap` , `drag` and `swipe` gestures so far.
 
 If you like the component and want to contribute or leave feedback hit me via [FACEBOOK](https://www.facebook.com/anton.kosarchyn), [SPECTRUM](https://spectrum.chat/users/anton-kosarchyn)
 
 ### How to use
 
-Drag the component to the canvas. Connect the children frames to the component. You can connect multiple frames. Also you can adjust the other parameters like `size`, `color`, `opacity` and other. 
+Drag the component to the canvas. Connect the children frames to the component. You can connect multiple frames. Also, you can adjust the other parameters like `size`, `color`, `opacity` and others.
 
 | Property       | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
@@ -20,4 +19,4 @@ Drag the component to the canvas. Connect the children frames to the component. 
 
 ### Known issues
 
-If you connect frames linked with a Link tool, after transition occures it's no longed possible to use gesture. Solution - wrap each frame in separate gesture component and then link the components together. I'm working on solution.
+If you connect frames linked with a Link tool, after transition occures it's no longer possible to use gesture. Solution - wrap each frame in separate gesture component and then link the components together. I'm working on a solution.
