@@ -3,7 +3,7 @@ This Framer X component renders the animated gesture on the screen. It supports 
 
 If you like the component and want to contribute or leave feedback hit me via [FACEBOOK](https://www.facebook.com/anton.kosarchyn), [SPECTRUM](https://spectrum.chat/users/anton-kosarchyn) or  [GITHUB](https://github.com/akosarch/animated-gesture)
 
-### Why is it useful?
+### How is it useful?
 
 In case when you record the video of your mobile app prototype and want to hide the default cursor. Or you want your dribbble shot to look modern and professional. Come on! 
 
