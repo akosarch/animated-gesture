@@ -14,7 +14,7 @@ interface PropTypes {
     minVelocity: number
     maxVelocity: number
     maxScale: number
-    content: []
+    content: any[]
 }
 
 export const AnimatedGesture: React.FC<PropTypes> = ({
@@ -129,7 +129,9 @@ export const AnimatedGesture: React.FC<PropTypes> = ({
             size={"100%"}
             style={{ zIndex: 999999999999999 }}
         >
-            <Frame>{content ? content : "Add children frame"}</Frame>
+            <Frame size={"100%"}>
+                {content && content[0] ? content : "Add children"}
+            </Frame>
             <Frame
                 style={{ pointerEvents: "none", zIndex: 999999999999999 }}
                 background={null}
