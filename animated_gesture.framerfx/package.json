@@ -11,9 +11,9 @@
 	},
 	"framer": {
 		"id": "c00031a1-6035-4033-a2d6-8b9d48312150",
-		"displayName": "Animated gesture"
+		"displayName": "Animated Gesture"
 	},
 	"author": "Anton Kosarchyn",
 	"name": "@framer/martiankid.animated-gesture",
-	"version": "1.0.0"
+	"version": "1.1.0"
 }
